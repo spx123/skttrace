@@ -2,7 +2,7 @@
 
 基于sktrace增加了spwan实现  
 log直接打印指令偏移，更清晰便捷  
-运行指令:      `python sktrace.py -l libmetasec_ml.so -m spawn -i 0xca9b0 com.ss.android.ugc.aweme.lite`
+运行指令:      `python sktrace.py -l <lib_name> -m spawn -i <offset> <package_name>`
 
 # sktrace
 
